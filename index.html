@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- Link your CSS -->
-    <title>Birthday Wish</title>
+    <title>Birthday Wishes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Birthday Wishes!</h1>
-        <input type="text" id="name1" placeholder="Enter Name 1">
-        <input type="text" id="name2" placeholder="Enter Name 2">
-        <button onclick="generateMessage()">Surprise Me!</button>
-        <div id="message" class="message hidden"></div>
+        <h1>Birthday Wishes</h1>
+        
+        <div class="image-container">
+            <img src="rahul da.jpg" alt="Rahul da" class="birthday-image">
+            <img src="nisan da.jpg" alt="Nisan da" class="birthday-image">
+        </div>
+
+        <p>Enter names:</p>
+        <input type="text" id="name1" placeholder="Name 1">
+        <input type="text" id="name2" placeholder="Name 2">
+        <button id="surprise-button">Surprise Me!</button>
+        <div id="message" class="hidden"></div>
     </div>
-    <script src="script.js"></script> <!-- Link your JS -->
+    <script src="script.js"></script>
 </body>
 </html>
